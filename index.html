@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>Github</title>
+        <link rel="stylesheet" href="grid2.css">
+    </head>
+    <body>
+        <h1>O que é o Github</h1>
+        <p>O github é uma plataforma feita para desenvolvimento conjunto por meio dos Gits em nuvem</p>
+        <div><h2>Os Gits</h2></div>
+        <p>São uma maneira de manter a lista de alterações a um codigo ou programa</p>
+        <h1>Configurando uma conta</h1>
+        <p>Criar uma conta no Github é igual a criar uma conta em qualquer outro site, depois disso, você precisa escolher um produto que se adapte melhor às suas necessidades, confirmar seu email,
+            configurar a autenticação de dois fatores e ver seu perfil.</p>
+
+
+        <h1>Repositorios</h1>
+        <p>É um lugar onde você pode armazenar seu código, seus arquivos e o histórico de revisão de cada arquivo</p>
+        <p>No canto superior direito de qualquer página, selecione e clique em Novo repositório.</p>
+        <p>
+
+            Escolha uma visibilidade do repositório. Para obter mais informações, confira Sobre repositório".
+            
+            Selecione Inicializar este repositório com um LEIAME.
+            
+            Clique em Criar repositório.
+            </p>
+        <p>
+            Os repositórios públicos são acessíveis a todos na Internet.
+            Os repositórios só podem ser acessados por você, pelas pessoas com as quais você compartilha explicitamente o acesso e, para repositórios da organização, por determinados integrantes da organização.
+        </p>
+        <h1>Clonagem</h1>
+        <p>Clonar o repositório cria uma copia local no seu computador</p>
+        <p>Basta ir no botão Code e seguir os proximos passos:
+            
+            Copie a URL do repositório.
+
+            Abra Terminal.
+            
+            Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.
+            
+            Digite git clone e cole a URL já copiada.</p>
+
+        <p> Clonar é extremamente util, já que permite que você tenha uma copia clone do repositório</p>
+        <h1>Comandos Basicos</h1>
+        <h2> git add</h2> <p>Move as alterações do diretório de trabalho para a área de staging. Assim, você tem a oportunidade de preparar um instantâneo antes de realizar o commit ao histórico oficial.</p>
+            
+<h2>Git Branch</h2>
+<p>
+Esse comando é a ferramenta de administração de ramificações de uso geral. Permite criar ambientes de desenvolvimento isolados em um único repositório.
+</p>
+<h2>
+O que faz o Git Checkout
+</h2><p>
+Além de verificar commits antigos e revisões de arquivos antigos, o git checkout também é a forma de navegar pelas ramificações existentes. Combinado com os comandos básicos do Git, é a maneira de trabalhar em determinada linha de desenvolvimento.
+</p>
+<h2>
+Git Clean</h2>
+<p>
+Remove os arquivos não monitorados do diretório de trabalho. Esse é o correspondente lógico do git reset, que (em geral) só opera em arquivos monitorados.
+</p>
+<h2>
+Git clone</h2>
+<p>
+Cria cópia de um Repositório do Git existente. A clonagem é o modo mais comum dos desenvolvedores obterem uma cópia de trabalho de um repositório central.
+</p>
+<h2>
+Git commit</h2>
+<p>
+Faz um commit do instantâneo preparado no histórico do projeto. Combinado com git add, esse processo define o fluxo de trabalho básico para todos os usuários do Git.
+</p>
+<h2>
+Git init</h2>
+<p>
+Inicializa novo repositório do Git. Se você quiser colocar um projeto sob controle de revisão, este é o primeiro comando que você precisa aprender.
+</p>
+<h2>
+Git pull</h2>
+<p>
+É a versão automatizada do git fetch. Faz o download de ramificação de um repositório remoto e faz a mesclagem imediata na ramificação atual. É o equivalente Git do svn update.
+</p>
+<h2>
+Git push</h2>
+<p>
+É o oposto de buscar (com algumas ressalvas). Permite que você mova uma ramificação local para outro repositório, o que é um modo conveniente de publicar as contribuições. É semelhante ao svn commit, mas envia uma série de commits em vez de um único conjunto de alterações.
+
+</p>
+
+<p>Uma mensagem clara de alteração do git ajuda todos os desenvolvedores que nele estão</p>
+<h1>Branches e Merge</h1>
+<p>Um branch no Git é simplesmente um ponteiro móvel para um desses commits. O nome do branch padrão no Git é master . Conforme você começa a fazer commits, você recebe um branch master que aponta para o último commit que você fez. Cada vez que você faz um novo commit, ele avança automaticamente.</p>
+<p>Para fazer merge de branches localmente, use git checkout para alternar para o branch no qual você quer que o merge aconteça. Esse branch é geralmente o main. Em seguida, use git merge e especifique o nome do outro branch para colocar nesse branch.</p>
+<h2>Contribuições e Pull Requests</h2>
+<p>Para criar um clone do fork, use o sinalizador --clone . No menu Arquivo, clique em Clonar Repositório. Clique na aba que corresponde à localização do repositório que você deseja clonar. Clique também na URL para inserir o local do repositório manualmente.</p>
+<p>Uma pull request é uma proposta para mesclar as alterações de um branch em outro.</p>
+<h3>para criar um Pull request</h3>
+<table><tr>
+<td>No GitHub.com, navegue até a página principal do repositório.</td>
+
+    <td>No menu "Branch", escolha o branch que contém seus commits.</td>
+    
+    <td>Acima da lista de arquivos, na faixa amarela, clique em Comparação e solicitação de pull para criar uma solicitação de pull para o branch associado.</td>
+    
+    <td> Use o menu suspenso do branch base para selecionar o branch no qual deseja mesclar as alterações e use o menu suspenso do branch de comparação para escolher o branch do tópico no qual você fez as alterações.</td>
+    
+        <td>Digite um título e uma descrição para a pull request.</td>
+            <td>Para criar uma solicitação de pull pronta para revisão, clique em Criar Solicitação de Pull. Para criar uma solicitação de pull de rascunho, use o manu suspenso, selecione Criar Solicitação de Pull de Rascunho e clique em Solicitação de Pull de Rascunho. Se você for membro de uma organização, talvez seja necessário solicitar acesso a pull requests de rascunho a um proprietário da organização. Confira "Sobre solicitação de pull".</td>
+        </tr></table>
+<p>Na solicitação de pull, clique em Arquivos alterados. Examine as alterações na solicitação de pull e, opcionalmente, comente em linhas ou arquivos específicos. Para obter mais informações, confira "Revisar alterações proposta em pull requests". Acima do código alterado, clique em Revisar alterações.</p>
+<h1>Issues e Projetos</h1>
+<p>Issues são itens que podem ser criados em um repositório para planejar, discutir e monitorar o trabalho.</p>
+<p>e para abrir eles: No nome do seu repositório, clique em Problemas. Clique em Novo problema. Se o repositório usar modelos de problemas, ao lado do tipo de problema que você deseja abrir, clique em Introdução.</p>
+<table><tr> <td>No canto superior direito de GitHub, selecione sua foto de perfil e selecione  Suas organizações.</td>
+
+    <td>Clique no nome da sua organização.</td>
+    
+    <td>No nome da organização, clique em  Projetos.</td>
+    
+    <td> Clique em Novo projeto.</td>
+    
+    <td>Selecione o tipo de projeto ou modelo que você deseja usar.</td>
+    
+    <td>Para criar um projeto em branco, em "Começar do zero", clique em Tabela, Roteiro ou Quadro.
+    Para criar um projeto a partir de um modelo, clique no modelo que você deseja usar. Você pode selecionar entre os modelos internos selecionados por GitHub, os modelos criados por sua organização e os modelos recomendados que foram escolhidos por sua organização.
+    Opcionalmente, se você selecionou um modelo, revise os campos, exibições, fluxos de trabalho e insights que serão criados.</td>
+    
+    <td>Na caixa de texto em "Nome do projeto", digite um nome para o novo projeto e Clique em Criar projeto.</td>
+    </tr></table>
+    <img src="data:image/jpeg;base64,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" width="20" height="50">

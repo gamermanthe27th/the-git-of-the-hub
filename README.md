@@ -1,3 +1,3 @@
 # the super unoficial github tutorial page!!!
-<l>this kinda sucks lol</l>
+this kinda sucks lol,
 yeah i dont have anything to say

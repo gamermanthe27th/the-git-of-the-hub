@@ -1,0 +1,22 @@
+body{ 
+    background-color: rgb(228, 158, 218);
+    font-weight: bolder;
+}
+h1 {
+    background-color: white;
+}
+h2{
+    font-weight: bold;
+}
+td{
+    border: 5px solid black;
+}
+h3{
+    font-weight: bold;
+}
+table{
+    background-color: aqua;
+}
+h2{
+    background-image: linear-gradient(white, pink);
+}
